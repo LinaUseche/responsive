@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+section{
+	background-color: #26c7cc;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+/*article*/
+.cdtos{
+	background-color: #ccc;
+	width: 25%;
+	height: 500px;
+	border: #000 solid;
+	display: inline-block;
+}
+#iframe-head{
+	background-color: #26c7cc;
+	width: 100%;
+	height: 250px;
+	border: #000 solid;
+	display: inline-block;
+}
+.iframe-foot{
+	background-color: #26c7cc;
+	width: 25%;
+	height: 250px;
+	border: #000 solid;
+	display: inline-block;
+}
+@media screen and (min-width: 600px) and (max-width: 1024px){
+	.cdtos, .iframe-foot{
+	width: 50%;
+	}
+}
+@media screen and (max-width: 599px){
+	.cdtos, .iframe-foot{
+	width: 100%;
+	display: block;
+	}
+}
